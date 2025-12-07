@@ -1,0 +1,19 @@
+{
+  "tools": [
+    {
+      "id": "send_email",
+      "method": "POST",
+      "url": "http://localhost:8000/tool/send_email"
+    },
+    {
+      "id": "get_stock_price",
+      "method": "POST",
+      "url": "http://localhost:8000/tool/get_stock_price"
+    },
+    {
+      "id": "create_calendar_event",
+      "method": "POST",
+      "url": "http://localhost:8000/tool/create_calendar_event"
+    }
+  ]
+}
