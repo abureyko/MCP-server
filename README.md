@@ -8,7 +8,7 @@
 - `list_supported_carriers()` — возвращает список поддерживаемых перевозчиков.
 
 ## Быстрый старт (локально)
--pip install -r requirements.txt
--cp .env.example .env
--python server.py
+pip install -r requirements.txt
+cp .env.example .env
+python server.py
 # при необходимости заполните TRACKING_API_URL и TRACKING_API_KEY
