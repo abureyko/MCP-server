@@ -1,0 +1,23 @@
+[
+  {
+    "name": "track_package",
+    "description": "Возвращает текущий статус отправления по трек-номеру.",
+    "args": [
+      {"name": "tracking_number", "type": "string", "description": "Трек-номер"},
+      {"name": "carrier", "type": "string", "description": "Код перевозчика (опционально)"}
+    ]
+  },
+  {
+    "name": "estimate_delivery_time",
+    "description": "Оценивает примерную дату доставки по трек-номеру.",
+    "args": [
+      {"name": "tracking_number", "type": "string", "description": "Трек-номер"},
+      {"name": "carrier", "type": "string", "description": "Код перевозчика (опционально)"}
+    ]
+  },
+  {
+    "name": "list_supported_carriers",
+    "description": "Возвращает список поддерживаемых перевозчиков.",
+    "args": []
+  }
+]

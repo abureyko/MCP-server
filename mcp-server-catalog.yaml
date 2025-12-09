@@ -1,0 +1,5 @@
+name: shipping-agent
+version: 0.1.0
+display_name: Shipping agent
+description: MCP server for shipment tracking
+tools_file: mcp_tools.json
