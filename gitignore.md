@@ -1,7 +1,0 @@
-```
-*.ds
-.DS_Store
-venv/
-__pycache__/
-```
-
