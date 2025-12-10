@@ -4,3 +4,5 @@ python-dotenv
 pydantic
 opentelemetry-api
 opentelemetry-sdk
+fastapi
+uvicorn

@@ -1,4 +1,5 @@
 # tools/utils.py
+# Вспомогательные функции и классы для MCP-инструментов.
 import os
 import json
 from typing import Any, Dict, List
@@ -19,6 +20,9 @@ class ToolResult:
     meta: Dict[str, Any] = None
 
 def _require_env_vars(names: list[str]) -> dict[str, str]:
+    """
+    Проверка обязательных переменных окружения.
+    """
     missing = [n for n in names if not os.getenv(n)]
     if missing:
         raise McpError(
@@ -30,6 +34,9 @@ def _require_env_vars(names: list[str]) -> dict[str, str]:
     return {n: os.getenv(n, "") for n in names}
 
 def format_api_error(response_text: str, status_code: int) -> str:
+    """
+    Форматирует ошибку API в человекочитаемый вид.
+    """
     try:
         data = json.loads(response_text)
         msg = data.get("message") or data.get("error") or str(data)

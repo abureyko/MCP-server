@@ -1,4 +1,8 @@
 # tools/list_supported_carriers.py
+"""
+MCP-tool: Возвращает список поддерживаемых перевозчиков.
+"""
+
 from fastmcp import Context
 from mcp.types import TextContent
 from pydantic import Field

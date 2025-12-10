@@ -1,4 +1,6 @@
 # server.py
+# запуск MCP-сервера
+
 import os
 from dotenv import load_dotenv, find_dotenv
 
@@ -24,7 +26,7 @@ def init_tracing():
 def main():
     init_tracing()
     print("=" * 60)
-    print("🌐 ЗАПУСК MCP СЕРВЕРА: shipping-agent")
+    print("ЗАПУСК MCP СЕРВЕРА: shipping-agent")
     print("=" * 60)
     print(f"🚀 MCP Server: http://{HOST}:{PORT}/mcp (streamable-http)")
     print("=" * 60)
