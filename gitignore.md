@@ -2,5 +2,6 @@
 *.ds
 venv/
 __pycache__/
+.DS_Store
 ```
 
