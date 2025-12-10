@@ -1,7 +1,7 @@
 ```
 *.ds
+.DS_Store
 venv/
 __pycache__/
-.DS_Store
 ```
 
