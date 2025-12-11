@@ -5,3 +5,5 @@ __pycache__/
 *.ds
 .DS_Store
 .pytest_cache
+.venv/
+.idea/
