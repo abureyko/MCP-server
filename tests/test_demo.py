@@ -1,4 +1,4 @@
-# tests/test_end_to_end.py
+# tests/test_demo.py
 
 import asyncio
 from agents.orchestrator import OrchestratorAgent
